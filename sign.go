@@ -203,8 +203,6 @@ func (s *Service) writeStringToSign(w io.Writer, t time.Time, r *http.Request) {
 	h := sha256.New()
 	s.writeRequest(h, r)
 	fmt.Fprintf(w, "%x", h.Sum(nil))
-	fmt.Println("writeStringToSign: ")
-	fmt.Println(w)
 }
 
 func (s *Service) creds(t time.Time) string {
