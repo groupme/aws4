@@ -1,12 +1,12 @@
 // This is an experimental library for use with DynamoDB. It uses
-// github.com/bmizerany/aws4 to sign requests. See Example for use.
+// github.com/groupme/aws4 to sign requests. See Example for use.
 package dydb
 
 import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/bmizerany/aws4"
+	"github.com/groupme/aws4"
 	"net/http"
 	"strings"
 )
