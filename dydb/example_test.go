@@ -2,7 +2,7 @@ package dydb_test
 
 import (
 	"fmt"
-	"github.com/bmizerany/aws4/dydb"
+	"github.com/groupme/aws4/dydb"
 	"log"
 )
 
